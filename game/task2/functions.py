@@ -1,3 +1,4 @@
+import csv
 from datetime import datetime, timezone
 
 from task2.models import *
@@ -10,9 +11,6 @@ def give_prize(player_id, level_order):
         level_prize.save()
 
     print(f'Игрок {player_id} получил приз "{level_prize.prize.title}"')
-
-
-import csv
 
 
 def export_data_csv():
