@@ -12,12 +12,12 @@ class Player(models.Model):
 
 
 class BoostType(models.Model):
-    id = models.BigAutoField("id", primary_key=True)
+    id = models.BigAutoField(primary_key=True)
     name = models.CharField(max_length=255)
 
 
 class Boost(models.Model):
-    id = models.BigAutoField("id", primary_key=True)
+    id = models.BigAutoField(primary_key=True)
     effect = models.ForeignKey(
         "BoostType", on_delete=models.PROTECT
     )
