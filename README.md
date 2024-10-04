@@ -36,7 +36,7 @@ class Boost(models.Model):
 
 2. Ответ на второе задание находится в папке `game/task2/functions.py`
 или здесь:
-<details><summary>Функции для присвоения игроку приза за прохождение уровня и выгрузки в csv данных:</summary>
+<details><summary>Функции для присвоения игроку приза за прохождение уровня и выгрузки в csv данных</summary>
 
 ```python
 import csv
